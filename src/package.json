@@ -23,6 +23,7 @@
         "vue": "^2.5.17"
     },
     "dependencies": {
-        "bulma": "^0.8.2"
+        "bulma": "^0.8.2",
+        "country-region-dropdown-menu": "^2.1.6"
     }
 }

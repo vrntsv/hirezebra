@@ -14,3 +14,4 @@
 
 Route::get('/', 'EmployeesController@index');
 Route::get('/registerCandidate', 'EmployeesController@renderRegisterPageCandidate');
+Route::post('/registerCandidate', 'EmployeesController@renderRegisterPageCandidate');

@@ -71,39 +71,11 @@
             <a href="#" class="jobs__category">
                 <h4 class="jobs__category-title">All Jobs</h4>
             </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">SAP</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">Java</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">Oracle</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">PHP</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">Accounting</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">Banking</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">Engineering</h4>
-            </a>
-
-            <a href="#" class="jobs__category">
-                <h4 class="jobs__category-title">Oil&Gas</h4>
-            </a>
-
+            @foreach($skills as $skill)
+                <a href="#" class="jobs__category">
+                    <h4 class="jobs__category-title">{{$skill->name}}</h4>
+                </a>
+            @endforeach
         </div>
         <div class="jobs__latest-jobs">
             <h2 class="jobs__title heading-secondary">Latest Candidates</h2>

@@ -43,6 +43,10 @@ class Candidates extends Model
         'date_of_birth'
     ];
 
+    public function getSkillsList()
+    {
+        return DB::table('skills')->get();
+    }
 
 
 }
