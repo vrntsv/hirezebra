@@ -30,7 +30,7 @@
                         <a href="#" class="header__nav-link text-sm">Home</a>
                     </li>
                     <li class="header__list-item">
-                        <a href="#" class="header__nav-link text-sm">About Us</a>
+                        <a href="/aboutUs" class="header__nav-link text-sm">About Us</a>
                     </li>
                     <li class="header__list-item">
                         <a href="#" class="header__nav-link text-sm">Contact Us</a>
@@ -56,12 +56,6 @@
                     </div>
                 </div>
 
-                <div class="footer__descr text-xs">
-                    <p>
-                        Lorem Ipsum dolor sit amet. consectetuer adipiscing elit. sed
-                        diam nonummy nibh euismod tincidunt ut laoreet dolote.
-                    </p>
-                </div>
 
                 <div class="footer__contact text-xs">
                     <p class="footer__contact-type">
