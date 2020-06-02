@@ -27,13 +27,13 @@
             <nav class="header__nav">
                 <ul class="header__nav-list flex text-centered">
                     <li class="header__list-item">
-                        <a href="#" class="header__nav-link text-sm">Home</a>
+                        <a href="/" class="header__nav-link text-sm">Home</a>
                     </li>
                     <li class="header__list-item">
                         <a href="/aboutUs" class="header__nav-link text-sm">About Us</a>
                     </li>
                     <li class="header__list-item">
-                        <a href="#" class="header__nav-link text-sm">Contact Us</a>
+                        <a href="/" class="header__nav-link text-sm">Contact Us</a>
                     </li>
                 </ul>
             </nav>

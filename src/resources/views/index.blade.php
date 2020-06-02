@@ -46,7 +46,7 @@
                 </div>
             </a>
 
-            <a href="#" class="links__link-item">
+            <a href="/registerEmp" class="links__link-item">
                 <div class="links__link-icon">
                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                 </div>

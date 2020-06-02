@@ -243,6 +243,10 @@ select {
     background-image: url("../images/register_emp_hero.png");
 }
 
+.register-emp{
+    background-image: url("../images/emp-hero.png");
+}
+
 @media (max-width: 790px) {
   .hero {
     background-size: 66rem;
